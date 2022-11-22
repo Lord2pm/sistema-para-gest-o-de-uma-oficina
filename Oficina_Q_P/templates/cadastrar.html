@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Agendar Serviços</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="nav-bar">
+		<header>
+			<nav class="nav-menu">
+				<ul class="menu">
+					<li class="menu-item home"><a href="/home">Home</a></li>
+					<li class="menu-item"><a href="/agendar">Agendar serviços</a></li>
+					<li class="menu-item"><a href="/servicos_agendados">Serviços agendados</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="cadastrar-viatura">
+		<form action="/agendar" method="post">
+			<h2>Dados da viatura</h2>
+			<input type="text" name="marca" placeholder="Marca da viatura...">
+			<input type="text" name="modelo" placeholder="Modelo da viatura...">
+			<input type="text" name="cor" placeholder="Cor da viatura...">
+			<input type="text" name="quilometragem" placeholder="Quilometragem percorrida...">
+			<label>Tipo de Serviço: </label>
+			<select>
+				<option>Reparação</option>
+				<option>Manutenção</option>
+			</select>
+			<h2>Dados do condutor</h2>
+			<input type="text" name="nome" placeholder="Nome do condutor...">
+			<input type="text" name="morada" placeholder="Morada do condutor...">
+			<input type="text" name="numero-bi" placeholder="N° de BI do condutor...">
+			<input type="text" name="numero-tel" placeholder="N° de telefone do condutor...">
+			<button type="submit" class="agendar">Agendar</button>
+		</form>
+	</div>
+</body>
+</html>

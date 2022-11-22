@@ -1,0 +1,172 @@
+/*--------------- Reset ---------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "open sans", sans-serif;
+}
+
+/*--------------- Home ---------------*/
+.logo {
+	position: absolute;
+}
+.menu {
+	width: 100%;
+	height: 80px;
+	background-color: #ed1e24;
+	text-align: right;
+}
+.menu-item {
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+.menu-item a {
+	color: #fff;
+	text-decoration: none;
+	text-decoration-style: none;
+}
+.menu-item a:hover {
+	color: #dcdcdc;
+}
+h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+p {
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+	line-height: 20pt;
+}
+.content-item figure img {
+	width:500px;
+	height: 450px;
+	border: 1px solid #000;
+	border-radius: 15px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
+}
+.content-item {
+	display: inline-block;
+}
+hr {
+	width: 90%;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #000;
+	bottom: 0;
+	margin-top: 10px;
+}
+footer p {
+	color: #ccc;
+	font-size: 12pt;
+	text-align: center;
+	padding-top: 30px;
+}
+/*--------------- Agendar Serviços ---------------*/
+
+.cadastrar-viatura form h2 {
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.cadastrar-viatura form input {
+	width: 700px;
+	height: 35px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	outline: none;
+	display: block;
+	margin-left: 50px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.cadastrar-viatura form label {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+.cadastrar-viatura form select {
+	width: 577px;
+	height: 35px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	margin-top: 10px;
+	outline: none;
+}
+.agendar {
+	width: 700px;
+	height: 50px;
+	background-color: #ed1e24;
+	color: #fff;
+	font-size: 12pt;
+	border: 1px solid #f15b40;
+	border-radius: 8px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.agendar:hover {
+	background-color: green;
+}
+
+/*---------------  Serviços agendandos --------------- */
+
+.content-table {
+	border-collapse: collapse;
+	margin: 25px 0;
+	font-size: 12pt;
+	min-width: 400px;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	margin-left: 50px;
+}
+.content-table thead tr {
+	background-color: #ed1e24;
+	color: #f5f5f5;
+	text-align: left;
+	font-weight: bold;
+}
+.content-table td, .content-table th {
+	padding: 12px 15px;
+}
+.content-table tbody tr {
+	border-bottom: 1px solid #ddd;
+}
+.content-table tbody tr:nth-of-type(even) {
+	background-color: #f3f3f3;
+}
+.content-table tbody tr:last-of-type {
+	border-bottom: 2px solid #ed1e24;
+}
+.content-table tbody tr:active-row {
+	font-weight: bold;
+	color: #ed1e24;
+}
+.content-table tbody tr td a {
+	text-decoration: none;
+}
+.content-table tbody tr td a button {
+	width: 100px;
+	color: #fff;
+	background-color: green;
+	font-size: 10pt;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	padding: 5px;
+	cursor: pointer;
+}
+.content-table tbody tr td a button:hover {
+	color: #f1f1f1;
+}

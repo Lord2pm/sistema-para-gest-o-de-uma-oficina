@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oficina Quase Perfeita</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="nav-bar">
+		<header>
+			<nav class="nav-menu">
+				<img src="" class="logo">
+				<ul class="menu">
+					<li class="menu-item home"><a href="/home">Home</a></li>
+					<li class="menu-item"><a href="/agendar">Agendar serviços</a></li>
+					<li class="menu-item"><a href="/servicos_agendados">Serviços agendados</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+	<div class="content">
+		<section class="content-item">
+			<h1>Quem somos nós?</h1>
+			<p>A Oficina Quase Perfeita é uma instituição vocacionada em reparação e manutenção de veículos automóveis. Nossos serviços têm um grande diferencial no mercado, pois nos importamos com os nossos clientes tal como eles se imortam com o seus automóveis.</p>
+			<figure>
+				<img src="{{ url_for('static', filename='img/pexels-chevanon-photography-1108101.jpg') }}">
+			</figure>
+		</section>
+		<section class="content-item">
+			<h1>Como podemos ajudar-lhe?</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<figure>
+				<img src="{{ url_for('static', filename='img/pexels-christian-1164778.jpg') }}">
+			</figure>
+		</section>
+		<section class="content-item">
+			<h1>Onde estamos localizados?</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<figure>
+				<img src="{{ url_for('static', filename='img/pexels-cottonbro-studio-5803351.jpg') }}">
+			</figure>
+		</section>
+	</div>
+	<hr>
+	<div>
+		<footer>
+			<p>Desenvolvido por Luís Manuel Muhele</p>	
+		</footer>
+	</div>
+</body>
+</html>
